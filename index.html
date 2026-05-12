@@ -2,99 +2,149 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <title>Portfolio</title>
+  <title>Priyanka Portfolio</title>
 
   <link rel="stylesheet" href="style.css">
+
 
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
   />
+
 </head>
 
 <body>
 
-<!-- NAVBAR -->
 
 <nav>
 
-  <div class="logo">Priyanka B</div>
+  <div class="logo">PRIYANKA</div>
 
   <ul>
-   
+
+    <li><a href="#home">Home</a></li>
+
     <li><a href="#about">About</a></li>
+
     <li><a href="#skills">Skills</a></li>
+
     <li><a href="#projects">Projects</a></li>
+
     <li><a href="#contact">Contact</a></li>
+
   </ul>
 
 </nav>
 
-<!-- HERO SECTION -->
 
 <section class="hero" id="home">
 
+
   <div class="left-content">
 
-    <p>Hello, I'm</p>
+    <p class="hello-text">Hello, I'm</p>
 
-    <h1>Priyanka <br> laxmi </h1>
+    <h1>
+      Priyanka <br>
+      Laxmi
+    </h1>
+
+
+    <h3 class="typing"></h3>
+
 
     <div class="socials">
 
-      <a href="https://www.linkedin.com/in/priyanka-b-86345283yt4" target="_blank">
+      <a href="https://www.linkedin.com/in/priyanka-b-86345283yt4"
+         target="_blank">
+
         <i class="fab fa-linkedin"></i>
+
       </a>
 
-      <a href="https://github.com/priyankakate06" target="_blank">
+      <a href="https://github.com/priyankakate06"
+         target="_blank">
+
         <i class="fab fa-github"></i>
+
       </a>
 
-      
+      <a href="mailto:priyanka@gmail.com">
+
+        <i class="fas fa-envelope"></i>
+
+      </a>
 
     </div>
 
   </div>
 
+
   <div class="image-section">
 
     <div class="glow"></div>
 
-    <img src="images/profile.png" alt="profile">
+    <img src="images/profile.png"
+         alt="Priyanka Portfolio Image">
 
   </div>
 
+
   <div class="right-content">
 
-    
+    <p class="creative-text">Creative</p>
 
-    <h2>Software <br>Developer</h2>
+    <h2>
+      Software <br>
+      Developer
+    </h2>
 
-    <a href="assets/Priyanka's.pdf" target="_blank">
-      <button>Resume</button>
-    </a>
+    <div class="hero-buttons">
+
+      <a href="assets/Priyanka's.pdf"
+         target="_blank">
+
+        <button>Resume</button>
+
+      </a>
+
+      <a href="#contact">
+
+        <button class="contact-btn">
+          Contact
+        </button>
+
+      </a>
+
+    </div>
 
   </div>
 
 </section>
 
-<!-- ABOUT -->
 
 <section class="about" id="about">
 
   <h2>About Me</h2>
 
   <p>
-    I am a passionate Software developer who loves building
-    modern and beautiful websites using HTML, CSS,
-    JavaScript   </p>
+
+    I am a passionate Software Developer who loves building
+    modern and responsive websites using HTML, CSS,
+    JavaScript and Python.
+
+    I enjoy creating clean UI designs, interactive web
+    experiences and solving real-world problems through code.
+
+  </p>
 
 </section>
 
-<!-- SKILLS -->
 
 <section class="skills" id="skills">
 
@@ -102,17 +152,30 @@
 
   <div class="skill-boxes">
 
-    <div class="skill-card">HTML</div>
-    <div class="skill-card">CSS</div>
-    <div class="skill-card">JavaScript</div>
-    <div class="skill-card">python</div>
-    
+    <div class="skill-card">
+      <i class="fab fa-html5"></i>
+      HTML
+    </div>
+
+    <div class="skill-card">
+      <i class="fab fa-css3-alt"></i>
+      CSS
+    </div>
+
+    <div class="skill-card">
+      <i class="fab fa-js"></i>
+      JavaScript
+    </div>
+
+    <div class="skill-card">
+      <i class="fab fa-python"></i>
+      Python
+    </div>
 
   </div>
 
 </section>
 
-<!-- PROJECTS -->
 
 <section class="projects" id="projects">
 
@@ -120,35 +183,78 @@
 
   <div class="project-container">
 
+
     <div class="project-card">
 
-      <img src="images/project1.png">
+      <img src="images/project1.png"
+           alt="Portfolio Project">
 
-      <h3>Portfolio Website</h3>
+      <div class="project-content">
 
-      <p>Modern portfolio website using HTML CSS JS</p>
+        <h3>Portfolio Website</h3>
 
-      <a href="https://portfolio-site-five-sage.vercel.app" target="_blank">
-        <button>Live Demo</button>
-      </a>
+        <p>
+
+          Modern responsive portfolio website built using
+          HTML, CSS and JavaScript with animations and
+          interactive UI effects.
+
+        </p>
+
+        <div class="project-buttons">
+
+          <a href="https://portfolio-site-five-sage.vercel.app"
+             target="_blank">
+
+            <button>Live Demo</button>
+
+          </a>
+
+        </div>
+
+      </div>
 
     </div>
 
+
     <div class="project-card">
 
-      <img src="images/project2.png">
+      <img src="images/project2.png"
+           alt="RailSupply Project">
 
-      <h3>RailSupply Portal!</h3>
+      <div class="project-content">
 
-      <p>ython + FastAPI (Backend)
-→ Vanilla JavaScript (Frontend)
-→ Supabase (Database + Image Storage)
-→ JWT Authentication
-→ Deployed on Render + Vercel</p>
+        <h3>RailSupply Portal</h3>
 
-      <a href="https://railpro-wine.vercel.app" target="_blank">
-   <button>Live Demo</button>
-</a>
+        <p>
+
+          Full stack railway supply management portal using
+          Python, FastAPI, Supabase and JavaScript with
+          authentication and cloud deployment.
+
+        </p>
+
+        <div class="tech-stack">
+
+          <span>Python</span>
+          <span>FastAPI</span>
+          <span>Supabase</span>
+          <span>JavaScript</span>
+
+        </div>
+
+        <div class="project-buttons">
+
+          <a href="https://railpro-wine.vercel.app"
+             target="_blank">
+
+            <button>Live Demo</button>
+
+          </a>
+
+        </div>
+
+      </div>
 
     </div>
 
@@ -156,7 +262,6 @@
 
 </section>
 
-<!-- CONTACT -->
 
 <section class="contact" id="contact">
 
@@ -164,17 +269,44 @@
 
   <form>
 
-    <input type="text" placeholder="Your Name">
+    <input
+      type="text"
+      placeholder="Your Name"
+      required
+    >
 
-    <input type="email" placeholder="Your Email">
+    <input
+      type="email"
+      placeholder="Your Email"
+      required
+    >
 
-    <textarea placeholder="Your Message"></textarea>
+    <textarea
+      placeholder="Your Message"
+      required
+    ></textarea>
 
-    <button type="submit">Send Message</button>
+    <button type="submit">
+      Send Message
+    </button>
 
   </form>
 
 </section>
+
+
+<footer>
+
+  <p>
+
+    © 2026 Priyanka Laxmi |
+    Built with HTML CSS JavaScript
+
+  </p>
+
+</footer>
+
+
 
 <script src="script.js"></script>
 

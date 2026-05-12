@@ -257,5 +257,45 @@ textarea{
     flex-direction:row;
     justify-content:center;
   }
+  /* TYPING */
 
+.typing{
+  margin-top:20px;
+  color:#8b5cf6;
+  font-size:28px;
+  height:40px;
 }
+
+/* SECTION ANIMATION */
+
+section{
+  opacity:0;
+  transform:translateY(60px);
+  transition:1s;
+}
+
+section.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+/* CURSOR GLOW */
+
+.cursor-glow{
+  width:25px;
+  height:25px;
+  background:#8b5cf6;
+  position:fixed;
+  border-radius:50%;
+  pointer-events:none;
+  transform:translate(-50%, -50%);
+  filter:blur(10px);
+  z-index:9999;
+}
+
+/* BUTTON GLOW */
+
+button{
+  transition:0.4s;
+}
+
